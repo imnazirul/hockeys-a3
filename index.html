@@ -31,8 +31,73 @@
       };
     </script>
   </head>
-  <body>
-    <header></header>
+  <body class="font-manrope">
+    <header class="container mx-auto lg:px-28 lg:pt-8 px-5 pt-4">
+      <nav>
+        <div class="navbar flex items-center bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="text-dark1 text-2xl lg:text-4xl font-extrabold"
+              >Hockey<span class="text-primary">’</span>s</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="flex gap-10 text-dark2">
+              <li class="hover:text-primary hover:cursor-pointer">
+                <a>Home</a>
+              </li>
+              <li class="hover:text-primary hover:cursor-pointer">
+                <a>About</a>
+              </li>
+              <li class="hover:text-primary hover:cursor-pointer">
+                <a>Pages</a>
+              </li>
+              <li class="hover:text-primary hover:cursor-pointer">
+                <a>Blog</a>
+              </li>
+              <li class="hover:text-primary hover:cursor-pointer">
+                <a>Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end flex gap-6">
+            <img class="hidden lg:flex" src="./Images/icons/Frame.svg" alt="" />
+            <button
+              class="btn bg-primary text-white border-2 border-primary hover:border-primary hover:bg-transparent hover:text-black"
+            >
+              Get Ticket
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <main></main>
 
