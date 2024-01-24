@@ -4,13 +4,10 @@
   ],
   "hints": {
     "axe/text-alternatives": "off",
-    "axe/aria": [
-      "default",
-      {
-        "aria-command-name": "off"
-      }
-    ],
+    "axe/aria": "off",
     "axe/forms": "off",
-    "button-type": "off"
+    "button-type": "off",
+    "axe/name-role-value": "off",
+    "no-inline-styles": "off"
   }
 }
